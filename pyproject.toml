@@ -7,8 +7,15 @@ authors = ["Dragonlord1005 <<>>"]
 [tool.poetry.dependencies]
 python = "^3.8"
 Sphinx = "^4.3.1"
+sphinx-autobuild = "^2021.3.14"
+sphinx-rtd-theme = "^1.0.0"
+poethepoet = "^0.11.0"
 
 [tool.poetry.dev-dependencies]
+
+[tool.poe.tasks]
+replitrun = "sphinx-autobuild . _build --port=3000 --host=0.0.0.0 -a"
+run = "sphinx-autobuild . _build -a"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
