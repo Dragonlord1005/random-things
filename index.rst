@@ -8,9 +8,8 @@ Welcome to random-things's documentation!
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
 
-    docs/about
+   docs/about
 
 
 
