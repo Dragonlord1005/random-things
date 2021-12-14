@@ -10,6 +10,7 @@ Welcome to random-things's documentation!
    :maxdepth: 2
 
    docs/about
+   docs/ssh
 
 
 
